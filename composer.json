@@ -6,6 +6,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "BSD-3-Clause",
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/gwillyoo/telegram-bot-sdk"
+    }
+],
   "authors": [
     {
       "name": "Alireza Seddighi",
@@ -16,7 +22,7 @@
   "require": {
     "php": ">=7.2",
     "symfony/framework-bundle": "^5.1 || ^6.0",
-    "irazasyed/telegram-bot-sdk": "^3.4"
+    "irazasyed/telegram-bot-sdk": "develop"
   },
   "autoload": {
     "psr-4": { "Borsaco\\TelegramBotApiBundle\\": "" }
